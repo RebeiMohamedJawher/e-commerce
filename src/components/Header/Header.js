@@ -50,7 +50,7 @@ const Header = () => {
         <div className="header__navRight">
           <Link style={{textDecoration: 'none'}} to={!user && "/login"}>
             <div className="header__user" onClick={onLogin} >
-              <span className="header__hello">Hello, <span className="header__mail">{user?.email}</span></span>
+              <span className="header__hello"><span className="header__mail">{user?.email}</span></span>
               <span className="header__navRightItems">{user ? 'Sign Out' : 'Log In/Sign Up'}</span>
             </div>
           </Link>
