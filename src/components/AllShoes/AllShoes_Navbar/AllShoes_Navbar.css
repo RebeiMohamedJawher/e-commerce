@@ -1,7 +1,7 @@
 .allShoesNavbar {
   height: 350px;
   width: 30vh;
-  background: linear-gradient(to bottom right, black, darkslategray);
+  background:  darkslategray;
   position: fixed;
   margin-top: 60px;
   margin-left: 0;
@@ -64,7 +64,7 @@
     position: fixed;
     top: 50px;
     left: 0;
-    background: linear-gradient(to right, rgb(39, 39, 39), rgb(62, 126, 126));
+    background:rgb(62, 126, 126);
     width: 100vw;
     overflow-y: scroll;
   }
@@ -92,7 +92,7 @@
   }
 
   .allShoesNavbar2__items:hover {
-    background: linear-gradient(to right, rgb(173, 173, 173), rgb(223, 223, 223));
+    background: rgb(223, 223, 223);
     color: rgb(37, 37, 37);
   }
 
@@ -113,7 +113,7 @@
     position: fixed;
     top: 50px;
     left: 0;
-    background: linear-gradient(to right, rgb(39, 39, 39), rgb(62, 126, 126));
+    background: rgb(62, 126, 126);
     width: 100vw;
     overflow-y: scroll;
   }
@@ -141,7 +141,7 @@
   }
 
   .allShoesNavbar2__items:hover {
-    background: linear-gradient(to right, rgb(173, 173, 173), rgb(223, 223, 223));
+    background: rgb(223, 223, 223);
     color: rgb(37, 37, 37);
   }
 

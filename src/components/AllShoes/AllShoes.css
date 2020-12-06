@@ -1,12 +1,10 @@
 .allShoes {
   max-width: 100vw;
-  /* background: linear-gradient(to right, rgb(187, 0, 0), rgb(252, 27, 27)); */
 }
 .allShoes__shoes {
   margin-left: 15vw;
   margin-right: 30px;
   margin-top: 30px;
-  /* border: 1px solid black; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

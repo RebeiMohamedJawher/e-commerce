@@ -19,7 +19,7 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom: 1px solid black;
-  background: linear-gradient(to right, black, rgb(52, 109, 109));
+  background:rgb(52, 109, 109);
   color: rgb(241, 197, 197);
 }
 
@@ -32,7 +32,7 @@
 .view {
   width: 95%;
   margin: 0 auto;
-  background: linear-gradient(to left, black, rgb(52, 109, 109));
+  background: rgb(52, 109, 109);
   text-align: center;
   padding: 10px 0;
   border-radius: 7px;
@@ -48,7 +48,7 @@
 
 .view:hover {
   color: darkslategray;
-  background: linear-gradient(to left, rgb(255, 137, 156), rgb(53, 43, 43));
+  background: rgb(53, 43, 43);
 }
 
 @media screen and (max-width: 500px) {

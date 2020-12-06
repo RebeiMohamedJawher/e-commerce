@@ -15,26 +15,12 @@
 }
 
 .shoeComponent__name1 {
-  background: linear-gradient(to right, rgb(211, 210, 210), rgb(236, 143, 143));
+  background:rgb(211, 210, 210);
   text-align: center;
   padding: 7px 0;
   font-size: 20px;
   font-weight: 500;
 }
-/* .shoeComponent__name2 {
-  background: linear-gradient(to right, rgb(211, 210, 210), rgb(236, 143, 143));
-  text-align: center;
-  padding: 7px 0;
-  font-size: 20px;
-  font-weight: 500;
-}
-.shoeComponent__name3 {
-  background: linear-gradient(to right, rgb(211, 210, 210), rgb(236, 143, 143));
-  text-align: center;
-  padding: 7px 0;
-  font-size: 20px;
-  font-weight: 500;
-} */
 
 .shoeComponent__price {
   display: flex;
@@ -81,7 +67,7 @@
 }
 
 .shoeComponent__add {
-  background: linear-gradient(to right, black, darkslategray);
+  background: darkslategray;
   color: rgb(221, 221, 221);
   min-width: 91%;
   margin: 0 auto;
@@ -104,22 +90,7 @@
 .oneMore {
   display: flex;
   align-items: center;
-  /* background: linear-gradient(to right, black, darkslategray);
-  color: rgb(221, 221, 221);
-  width: 50%;
-  margin: 0 auto;
-  margin-top: 15px;
-  padding: 6px 7px;
-  border-radius: 7px;
-  border: 1px solid black;
-  cursor: pointer;
-  transition: all 0.5s ease; */
 }
-
-/* .oneMore:hover {
-  background: white;
-  color: black;
-} */
 
 .oneMore > span {
   font-size: 18px;
@@ -130,10 +101,6 @@
   .shoeComponent {
     width: 200px;
     height: 340px;
-    /* margin-left: 25px;
-    margin-bottom: 55px; */
-    /* margin-left: 15px; */
-    /* margin-left: 10px; */
     margin-bottom: 40px;
   }
   
@@ -194,10 +161,6 @@
   .shoeComponent {
     width: 200px;
     height: 340px;
-    /* margin-left: 25px;
-    margin-bottom: 55px; */
-    /* margin-left: 15px; */
-    /* margin-left: 10px; */
     margin-bottom: 40px;
   }
   
