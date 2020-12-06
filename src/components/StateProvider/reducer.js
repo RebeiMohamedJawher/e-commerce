@@ -7,7 +7,6 @@
 //   category: "Gym Shoe",
 // },
 
-import Metcon6 from '../AllShoes/Men/MenGym/metcon6.jpg';
 
 export const initialState = {
   cart: [],

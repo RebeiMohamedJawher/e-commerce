@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 import './Header.css';
-import HeaderLogo from './headerLogo.png';
 import ShoppingCartRoundedIcon from '@material-ui/icons/ShoppingCartRounded';
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
@@ -31,7 +30,6 @@ const Header = () => {
         </div>
         <Link style={{textDecoration: 'none'}} to="/">
           {/* <img className="header__logo" src={HeaderLogo} /> */}
-          <img className="header__logo" src="https://seeklogo.net/wp-content/uploads/2013/11/nike-swoosh-vector-logo-400x400.png"  alt="Nike logo" />
         </Link> 
         <div className="header__nav">
           <Link style={{textDecoration: 'none'}} to="/">

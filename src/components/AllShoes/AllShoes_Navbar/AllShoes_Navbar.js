@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 
 import './AllShoes_Navbar.css';
 
 const AllShoes_Navbar = ({ title, pathGym, pathJordan, pathWalking, pathFootball, pathAthletics, pathBasketball }) => {
 
-  const [shoesBar, setShoesBar] = useState(false);
+  const [shoesBar, ] = useState(false);
 
-  const showShoesBar = () => setShoesBar(!shoesBar);
 
   return (
     <>

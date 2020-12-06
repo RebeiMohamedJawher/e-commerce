@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 import './Login.css';
-import Wallpaper from './wallpaper.jpg';
 import { auth } from '../../firebase';
 import { useHistory } from 'react-router-dom';
 
