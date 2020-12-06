@@ -6,7 +6,7 @@ import { useStateValue } from '../../StateProvider/StateProvider';
 
 const ShoeItem = ({ id, image, title, before, after, category }) => {
 
-  const [{ cart }, dispatch] = useStateValue();
+  const [dispatch] = useStateValue();
 
   const removeFromCart = () => {
     dispatch({
@@ -21,7 +21,6 @@ const ShoeItem = ({ id, image, title, before, after, category }) => {
       <div className="shoeItem__right">
         <span className="shoeItem__title">{title}</span>
         <span className="shoeItem__category">{category}</span>
-        {}
         <span className="shoeItem__price">Price:  <span className="shoeItem__afterPrice"> {after}DNT</span></span>
         <div className="shoeItem__remove" onClick={removeFromCart} >
           <span className="shoeItem__click">Remove From Cart</span>
