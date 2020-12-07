@@ -1,12 +1,3 @@
-// {
-//   id: "100000",
-//   image: "1",
-//   title: "Nike Metcon 6",
-//   before: "170",
-//   after: "140",
-//   category: "Gym Shoe",
-// },
-
 
 export const initialState = {
   cart: [],
