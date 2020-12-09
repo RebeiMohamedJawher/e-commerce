@@ -10,11 +10,11 @@ services:
        - ./node_modules
   react-ui:
     build:
-      context: ./my-app
+      context: ./app
     ports:
       - "3000:3000"
     container_name: react-ui
     stdin_open: true
     volumes:
-       - ./src/firebase.js
+       - ./src/app.js
        - ./node_modules
