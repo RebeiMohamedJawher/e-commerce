@@ -1,14 +1,15 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 
 import './TotalPrice.css';
 import CurrencyFormat from 'react-currency-format';
 import { useStateValue } from '../../StateProvider/StateProvider';
 import { getCartTotal } from '../../StateProvider/reducer';
-import stripeCheckout from 'react-stripe-checkout';
 import StripeCheckout from 'react-stripe-checkout';
 
 const TotalPrice = () => {
-
+  
+  
   const [{ cart }, dispatch] = useStateValue();
 
   const handleToken = (token, addresses) => {

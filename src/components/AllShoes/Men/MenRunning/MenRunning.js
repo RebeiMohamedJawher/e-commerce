@@ -1,10 +1,9 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 
-// import './MenRunning.css';
+import './MenRunning.css';
 import AllShoes_Navbar from '../../AllShoes_Navbar/AllShoes_Navbar';
 import ShoeComponent from '../../ShoeComponent/ShoeComponent';
-import AllShoes from '../../AllShoes.css';
-
 import Gravity2 from './gravity2.jpg';
 import Pegasus37 from './pegasus37.jpg';
 import Quest2 from './quest2.jpg';

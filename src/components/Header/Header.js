@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/jsx-pascal-case */
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -18,9 +20,7 @@ const Header = () => {
 
   const onLogin = () => {
     if(user) {
-      auth.signOut();
-    }
-  }
+      auth.signOut();                
 
   return (
     <>
@@ -29,15 +29,13 @@ const Header = () => {
           <MenuIcon onClick={showNavBar} style={{cursor: 'pointer'}} />
         </div>
         <Link style={{textDecoration: 'none'}} to="/">
-          {/* <img className="header__logo" src={HeaderLogo} /> */}
+          {}
         </Link> 
         <div className="header__nav">
           <Link style={{textDecoration: 'none'}} to="/">
             <span className="header__navItems">Home</span>
           </Link>
-          {/* <Link style={{textDecoration: 'none'}} to="/kids">
-            <span className="header__navItems">Kids</span>
-          </Link> */}
+          {}
           <Link style={{textDecoration: 'none'}} to="/men">
             <span className="header__navItems">Men's Footwear</span>
           </Link>
@@ -52,15 +50,6 @@ const Header = () => {
               <span className="header__navRightItems">{user ? 'Sign Out' : 'Log In/Sign Up'}</span>
             </div>
           </Link>
-          {/* <Link style={{textDecoration: 'none'}} to="/login">
-            <div className="header__user">
-              <span className="header__hello">Hello, <span className="header__mail">abcabc@gmail.com</span></span>
-              <span className="header__navRightItems">Log In/Sign Up</span>
-            </div>
-          </Link> */}
-          {/* <Link style={{textDecoration: 'none'}} to="/login">
-            <span className="header__navRightItems">Log In/Sign Up</span>
-          </Link> */}
           <Link style={{textDecoration: 'none'}} to="/checkout">
             <ShoppingCartRoundedIcon className="header__cart" />
           </Link>
@@ -77,7 +66,7 @@ const Header = () => {
               <Link style={{textDecoration: 'none'}} to={!user && "/login"}>
                 <div className="header2__user" onClick={onLogin} >
                   <span className="header2__hello">Hello, <span className="header2__mail">{user?.email}</span></span>
-                  <span className="header2__navSign">{user ? 'Sign Out' : 'Log In/Sign Up'}</span>
+             <span className="header2__navSign">{user ? 'Sign Out' : 'Log In/Sign Up'}</span>
                 </div>
               </Link>
               <div className="header2__navItem">
@@ -93,7 +82,8 @@ const Header = () => {
               <div className="header2__navItem">
                 <Link style={{textDecoration: 'none'}} to="/women" onClick={showNavBar} >
                   <span className="header2__navItems">Women's Footwear</span>
-                </Link>
+                </Link>                  /* eslint-disable no-unused-vars */
+
               </div>
             </div>
       </div>

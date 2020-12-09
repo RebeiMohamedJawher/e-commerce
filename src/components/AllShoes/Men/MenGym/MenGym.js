@@ -1,10 +1,9 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 
-// import './MenGym.css';
+import './MenGym.css';
 import AllShoes_Navbar from '../../AllShoes_Navbar/AllShoes_Navbar';
 import ShoeComponent from '../../ShoeComponent/ShoeComponent';
-import AllShoes from '../../AllShoes.css';
-
 import Metcon6 from './metcon6.jpg';
 import AirMonarch from './airMonarch.jpg';
 import MatFraser from './matFraser.jpg';

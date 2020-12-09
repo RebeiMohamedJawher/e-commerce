@@ -1,9 +1,10 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 
-// import './WomenGym.css';
+import './WomenGym.css';
 import AllShoes_Navbar from '../../AllShoes_Navbar/AllShoes_Navbar';
 import ShoeComponent from '../../ShoeComponent/ShoeComponent';
-import AllShoes from '../../AllShoes.css';
+
 
 import AirZoom from './airZoom.jpg';
 import Metcon3 from './metcon3.jpg';

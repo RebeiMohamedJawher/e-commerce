@@ -1,10 +1,9 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 
-// import './WomenBasketball.css';
+import './WomenBasketball.css';
 import AllShoes_Navbar from '../../AllShoes_Navbar/AllShoes_Navbar';
 import ShoeComponent from '../../ShoeComponent/ShoeComponent';
-import AllShoes from '../../AllShoes.css';
-
 import AirMax from './airMax.jpg';
 import Freak1 from './freak1.jpg';
 import Kyrie4 from './kyrie4.jpg';

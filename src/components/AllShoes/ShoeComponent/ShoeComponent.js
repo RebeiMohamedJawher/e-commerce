@@ -1,19 +1,3 @@
-// MEN
-// 1- mengym --- 100000
-// 2- mentennis --- 200000
-// 3- menjordan --- 300000
-// 4- menrunning --- 400000
-// 5- menfootball --- 500000
-// 6- menbasketball --- 600000
-
-// WOMEN
-// 1- womengym --- 110000
-// 2- womentennis --- 220000
-// 3- womenjordan --- 330000
-// 4- womenrunning --- 440000
-// 5- womenfootball --- 550000
-// 6- womenbasketball --- 660000
-
 import React from 'react';
 
 import ShoppingCartRoundedIcon from '@material-ui/icons/ShoppingCartRounded';
@@ -23,6 +7,7 @@ import { useStateValue } from '../../StateProvider/StateProvider';
 
 const ShoeComponent = ({ image, id, title, before, after, category }) => {
 
+  // eslint-disable-next-line no-unused-vars
   const [{ cart }, dispatch] = useStateValue();
 
   const addToCart = () => {

@@ -1,10 +1,10 @@
+/* eslint-disable react/jsx-pascal-case */
+/* eslint-disable no-unused-vars */
 import React from 'react';
 
-// import './WomenRunning.css';
+import './WomenRunning.css';
 import AllShoes_Navbar from '../../AllShoes_Navbar/AllShoes_Navbar';
 import ShoeComponent from '../../ShoeComponent/ShoeComponent';
-import AllShoes from '../../AllShoes.css';
-
 import Pegasus37 from './pegasus37.jpg';
 import Fly3 from './fly3.jpg';
 import InfinityRun from './infinityRun.jpg';

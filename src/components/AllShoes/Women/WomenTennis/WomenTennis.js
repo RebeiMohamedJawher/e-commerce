@@ -1,10 +1,9 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 
-// import './WomenTennis.css';
+import './WomenTennis.css';
 import AllShoes_Navbar from '../../AllShoes_Navbar/AllShoes_Navbar';
 import ShoeComponent from '../../ShoeComponent/ShoeComponent';
-import AllShoes from '../../AllShoes.css';
-
 import VaporX from './vaporX.jpg';
 import Wildcard from './wildcard.jpg';
 import ZoomZero from './zoomZero.jpg';

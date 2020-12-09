@@ -1,10 +1,9 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 
-// import './WomenJordan.css';
+import './WomenJordan.css';
 import AllShoes_Navbar from '../../AllShoes_Navbar/AllShoes_Navbar';
 import ShoeComponent from '../../ShoeComponent/ShoeComponent';
-import AllShoes from '../../AllShoes.css';
-
 import Retro4 from './retro4.jpg';
 import Delta from './delta.jpg';
 import Max200 from './max200.jpg';

@@ -1,10 +1,9 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 
-// import './MenJordan.css';
+import './MenJordan.css';
 import AllShoes_Navbar from '../../AllShoes_Navbar/AllShoes_Navbar';
 import ShoeComponent from '../../ShoeComponent/ShoeComponent';
-import AllShoes from '../../AllShoes.css';
-
 import AirMid from './airMid.jpg';
 import AirOg from './airOg.jpg';
 import Jumpman from './jumpman.jpg';

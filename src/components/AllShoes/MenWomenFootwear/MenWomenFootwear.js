@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './MenWomenFootwear.css';
-import MGym from '../Men/mGym.jpg';
 
 const MenWomenFootwear = ({ title, image, pathTo }) => {
   return (

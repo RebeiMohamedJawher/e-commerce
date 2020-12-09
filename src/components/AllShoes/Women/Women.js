@@ -1,8 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 
 import './Women.css';
 import MenWomenFootwear from '../MenWomenFootwear/MenWomenFootwear';
-// import AllShoes_Navbar from '../AllShoes_Navbar/AllShoes_Navbar';
 import WGym from './wGym.jpg';
 import WTennis from './wTennis.jpg';
 import WJordan from './wJordan.jpg';
@@ -13,15 +13,7 @@ import WBasketball from './wBasketball.jpg';
 const Women = () => {
   return (
     <div className="women">
-      {/* <AllShoes_Navbar 
-        title="Women's"
-        pathGym="/women/gym"
-        pathJordan="/women/jordan"
-        pathWalking="/women/running"
-        pathFootball="/women/football"
-        pathAthletics="/women/tennis"
-        pathBasketball="/women/basketball"
-      /> */}
+      {}
       .
       <div className="men__categories">
         <MenWomenFootwear 

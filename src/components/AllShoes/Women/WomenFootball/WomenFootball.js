@@ -1,10 +1,9 @@
+/* eslint-disable react/jsx-pascal-case */
 import React from 'react';
 
-// import './WomenFootball.css';
+import './WomenFootball.css';
 import AllShoes_Navbar from '../../AllShoes_Navbar/AllShoes_Navbar';
 import ShoeComponent from '../../ShoeComponent/ShoeComponent';
-import AllShoes from '../../AllShoes.css';
-
 import PhantomGT from '../../Men/MenFootball/phantomGT.jpg';
 import PhantomGTclub from '../../Men/MenFootball/phantomGTclub.jpg';
 import Superfly7 from '../../Men/MenFootball/superfly7.jpg';
