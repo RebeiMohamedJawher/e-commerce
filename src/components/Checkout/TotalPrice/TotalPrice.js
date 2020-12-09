@@ -24,7 +24,7 @@ const TotalPrice = () => {
         renderText={(value) => (
           <>
             <span className="totalPrice__items">Total number of Items in your cart: <strong>{cart?.length}</strong></span>
-            <span className="totalPrice__total">Total Price of your items: <strong>{`${value}`}</strong></span>
+            <span className="totalPrice__total">Total Price of your items: <strong>{ value } DNT</strong></span>
           </>
         )}
 
@@ -32,7 +32,7 @@ const TotalPrice = () => {
         value={getCartTotal(cart)}
         displayType={"text"}
         thousandSeparator={true}
-        prefix={"$"}
+        prefix={""}
       />
       {/* <button>Proceed to Payment</button> */}
       <div className="totalPrice__button">
